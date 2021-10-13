@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test Runner -Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="vtigerTests.TC_33AdvanceSerachRelatedtdo">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="closedDb"/>
+          <include name="AdvanceSearchRelatedtodoTest"/>
+          <include name="launchBrowser"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- vtigerTests.TC_33AdvanceSerachRelatedtdo -->
+      <class name="vtigerTests.CreateFilter">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="closedDb"/>
+          <include name="launchBrowser"/>
+          <include name="createFilterTest"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- vtigerTests.CreateFilter -->
+      <class name="vtigerTests.TC_34Advanceserach_Equals">
+        <methods>
+          <include name="AdvanceSearch_Equals"/>
+          <include name="loginToApp"/>
+          <include name="closedDb"/>
+          <include name="launchBrowser"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- vtigerTests.TC_34Advanceserach_Equals -->
+    </classes>
+  </test> <!-- Test Runner -Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
