@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49" started-at="2021-10-18T12:02:30Z" finished-at="2021-10-18T12:02:31Z">
+    <groups>
+      <group name="regressiontesting">
+        <method signature="sample1test.test1()[pri:0, instance:testscrpt1.sample1test@2f177a4b]" name="test1" class="testscrpt1.sample1test"/>
+      </group> <!-- regressiontesting -->
+    </groups>
+    <test name="Default test" duration-ms="49" started-at="2021-10-18T12:02:30Z" finished-at="2021-10-18T12:02:31Z">
+      <class name="testscrpt1.sample1test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testscrpt1.sample1test@2f177a4b]" name="test1" duration-ms="15" started-at="2021-10-18T12:02:31Z" finished-at="2021-10-18T12:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testscrpt1.sample1test@2f177a4b]" name="test2" duration-ms="2" started-at="2021-10-18T12:02:31Z" finished-at="2021-10-18T12:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testscrpt1.sample1test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
