@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+    <groups>
+      <group name="regressionTest">
+        <method signature="DemoTest.modifyCustomerTest()[pri:0, instance:testscrpt1.DemoTest@7181ae3f]" name="modifyCustomerTest" class="testscrpt1.DemoTest"/>
+        <method signature="sample1test.test1()[pri:0, instance:testscrpt1.sample1test@77a57272]" name="test1" class="testscrpt1.sample1test"/>
+        <method signature="sample2Test.testsample1()[pri:0, instance:testscrpt2.sample2Test@46238e3f]" name="testsample1" class="testscrpt2.sample2Test"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="DemoTest.createCustomerTest()[pri:0, instance:testscrpt1.DemoTest@7181ae3f]" name="createCustomerTest" class="testscrpt1.DemoTest"/>
+        <method signature="sample2Test.testsample2()[pri:0, instance:testscrpt2.sample2Test@46238e3f]" name="testsample2" class="testscrpt2.sample2Test"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="50" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+      <class name="testscrpt1.DemoTest">
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:testscrpt1.DemoTest@7181ae3f]" name="createCustomerTest" duration-ms="0" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="modifyCustomerTest()[pri:0, instance:testscrpt1.DemoTest@7181ae3f]" name="modifyCustomerTest" duration-ms="0" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomerTest -->
+      </class> <!-- testscrpt1.DemoTest -->
+      <class name="testscrpt1.sample1test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testscrpt1.sample1test@77a57272]" name="test1" duration-ms="6" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testscrpt1.sample1test -->
+      <class name="testscrpt2.sample2Test">
+        <test-method status="PASS" signature="testsample1()[pri:0, instance:testscrpt2.sample2Test@46238e3f]" name="testsample1" duration-ms="0" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsample1 -->
+        <test-method status="PASS" signature="testsample2()[pri:0, instance:testscrpt2.sample2Test@46238e3f]" name="testsample2" duration-ms="0" started-at="2021-10-18T17:47:34Z" finished-at="2021-10-18T17:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsample2 -->
+      </class> <!-- testscrpt2.sample2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
