@@ -37,7 +37,7 @@ public class CreateFilter extends BaseClass {
 		Thread.sleep(2000);
 		op.fliter(oppoName);
 		String actSucMsg = cnoppo.popupMSg(driver);
-		Assert.fail();
+		//Assert.fail();
 		
 		wlib.acceptAlert(driver);
 	
